@@ -572,6 +572,7 @@ width: 100%;
     background-color: #FCFCFC;
     border-radius: 4px;
     transform: translate(-50%, -50%);
+    padding: 24px;
 }
 
 .modal-btn {
@@ -595,15 +596,91 @@ width: 100%;
 }
 
 .modal-text {
+    width: 360px;
     color: #2E2F42;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    margin-top: 72px;
+    text-align: center;
+    max-width: 360px;
 }
 
-.modal-form {
-    display: block;
+.modal-div {
+    margin-bottom: 8px;
+}
 
+.modal-input {
+    width: 100%;
+    height: 58px;
+    border-radius: 4px;
+    border: 1px solid  rgba(46, 47, 66, 0.40);
+    background-color: inherit;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:focus {
+    border-color: #4D5AE5;;
+}
+
+.modal-input:focus + .modal-form-icon {
+    fill: #4D5AE5;
+}
+
+.modal-label {
+    display: block;
+    margin-bottom: 4px;
+    color: #8E8F99;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+}
+
+.modal-input-wrap {
+    position: relative;
+}
+
+.modal-form-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-textarea {
+        width: 100%;
+        height: 120px;
+            height: 58px;
+            border-radius: 4px;
+            border: 1px solid rgba(46, 47, 66, 0.40);
+            background-color: inherit;
+            padding: 8px  16px;
+            outline: transparent;
+            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            resize: none;
+}
+
+.modal-textarea::placeholder {
+    color:  rgba(46, 47, 66, 0.40);=
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+}
+
+.accept-label {
+    color: #8E8F99;=
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+}
+
+.accept-label > .accept-label-a {
+    color: #4D5AE5;
+    text-decoration-line: underline;
 }
