@@ -513,9 +513,48 @@
       <div class="modal">
         <button type="button" class="modal-btn">
           <svg class="modal-btn-icon" width="24" height="24">
-            <use url="./images/icons.svg#icon-close-black"></use>
+            <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="modal-div">
+            <label class="modal-label" for="user-name">Name</label>
+            <input
+              class="modal-input"
+              id="user-name"
+              type="text"
+              name="user-name"
+            />
+          </div>
+          <div class="modal-div">
+            <label class="modal-label" for="user-phone">Phone</label>
+            <input
+              class="modal-input"
+              id="user-phone"
+              type="tel"
+              name="user-phone"
+            />
+          </div>
+          <div class="modal-div">
+            <label class="modal-label" for="user-email">Email</label>
+            <input
+              class="modal-input"
+              id="user-email"
+              type="email"
+              name="user-email"
+            />
+          </div>
+          <div class="modal-div">
+            <label class="modal-label" for="user-comment">Comment</label>
+            <textarea
+              class="modal-textarea"
+              name="user-comment"
+              id="user-comment"
+              rows="10"
+            ></textarea>
+          </div>
+        </form>
       </div>
     </div>
   </body>
