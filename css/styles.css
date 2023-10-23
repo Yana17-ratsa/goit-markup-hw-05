@@ -596,7 +596,6 @@ width: 100%;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     border-radius: 4px;
     background: #4D5AE5;
     color: #FFF;
@@ -610,6 +609,8 @@ width: 100%;
 
 .footer-icon {
     fill: white;
+    margin-left: 16px;
+
 }
 
 
@@ -736,6 +737,10 @@ width: 100%;
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.comment-div {
+    margin-bottom: 16px;
 }
 
 .modal-textarea {
