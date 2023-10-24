@@ -690,7 +690,6 @@ width: 100%;
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
-    margin-top: 72px;
     text-align: center;
     max-width: 360px;
 }
@@ -795,6 +794,7 @@ width: 100%;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 
